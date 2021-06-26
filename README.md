@@ -63,3 +63,7 @@ In root there is docker-compose file.
 Thanks to docker-compose you can define and run multi-container Docker applications. 
 With Compose, you use a YAML file to configure your application’s services. 
 Then, with a single command, you create and start all the services from your configuration.
+
+### Dataset
+Publicly available, non-commercial data set used for this project is available at the following link:
+https://grouplens.org/datasets/movielens/latest/
