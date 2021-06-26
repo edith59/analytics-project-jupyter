@@ -85,6 +85,8 @@ def top_rated_movies():
             "ORDER BY count "\
             "DESC LIMIT 10) t " \
             "ON movies.movieid = t.movieid ORDER BY 3 desc ; "
+
+    # Fetch data from sql filtered to top 10 records with highest rate
     top_movies_df = pd.read_sql_query(query, db)
 
     return top_movies_df
