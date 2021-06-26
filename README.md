@@ -20,13 +20,13 @@ git clone https://github.com/edith59/analytics-project.git
 ```
 
 2. Run docker-compose file
-The root directory contains the `docker-compose.yaml` which
-describes the configuration of service components. By executing following command
-you will be able to run Dockerfiles for 2 containers (Python and SQL ones).
 
 ```console
 docker-compose up --build
 ```
+The root directory contains the `docker-compose.yaml` which
+describes the configuration of service components. By executing following command
+you will be able to run Dockerfiles for 2 containers (Python and SQL ones).
 
 ### Stopping an application
 To stop and remove all containers of the application run (alternatively use ctrl+c):
