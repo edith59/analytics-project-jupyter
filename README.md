@@ -28,9 +28,18 @@ The root directory contains the `docker-compose.yaml` which
 describes the configuration of service components. By executing following command
 you will be able to run Dockerfiles for 2 containers (Python and SQL ones).
 
-3. Access Jupyter Notebook 
-Once you run previously indicated command you should see link to access Jupyter Notebook.
-This URL we need to copy and paste into our browser to access Jupyter stack.
+3. Access Jupyter Notebook
+
+```console
+datascience-notebook_1  |     To access the notebook, open this file in a browser:
+datascience-notebook_1  |         file:///home/jovyan/.local/share/jupyter/runtime/nbserver-7-open.html
+datascience-notebook_1  |     Or copy and paste one of these URLs:
+datascience-notebook_1  |         http://26286bd7e857:8888/?token=XXXX
+datascience-notebook_1  |      or http://127.0.0.1:8888/?token=XXXX
+```
+
+Once you run previously indicated command you should see links to access Jupyter Notebook as per the example above.
+Access last URL : copy and paste into browser to access Jupyter stack.
 Jupyter Notebook with data transformation operations will be available in /work folder.
 
 ### Stopping an application
