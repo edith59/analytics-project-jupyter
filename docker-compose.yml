@@ -4,5 +4,7 @@ services:
         image: jupyter/datascience-notebook
         ports:
           - 8888:8888
+        volumes:
+          - ./analytics/notebooks:/home/jovyan/work/
     db:
       build: ./database/
