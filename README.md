@@ -16,7 +16,7 @@ sample of containerized application with Docker Compose.
 
 1. Clone the repository
 ```console
-git clone https://github.com/edith59/analytics-project.git
+git clone https://github.com/edith59/analytics-project-jupyter.git
 ```
 
 2. Run docker-compose file
