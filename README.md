@@ -28,6 +28,11 @@ The root directory contains the `docker-compose.yaml` which
 describes the configuration of service components. By executing following command
 you will be able to run Dockerfiles for 2 containers (Python and SQL ones).
 
+3. Access Jupyter Notebook 
+Once you run previously indicated command you should see link to access Jupyter Notebook.
+This URL we need to copy and paste into our browser to access Jupyter stack.
+Jupyter Notebook with data transformation operations will be available in /work folder.
+
 ### Stopping an application
 To stop and remove all containers of the application run (alternatively use ctrl+c):
 
